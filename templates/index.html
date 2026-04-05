@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healthcare Chatbot (Basic)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Healthcare Chatbot</h1>
+        <p class="subtitle">Basic suggestions only. Not for diagnosis.</p>
+      </header>
+
+      <section class="card chat-card">
+        <div id="chat" class="chat" aria-live="polite"></div>
+
+        <div class="form-row">
+          <form id="symptomForm" class="input-row" autocomplete="oaff">
+            <input
+              id="inputText"
+              type="text"
+              name="input"
+              placeholder="Enter symptoms or a disease name (e.g., 'fever and sore throat')"
+              required
+            />
+            <button type="submit">Get Suggestions</button>
+          </form>
+
+          <div class="voice-row">
+            <button id="voiceBtn" type="button" title="Voice input (browser support required)">
+              Use Voice
+            </button>
+            <span id="voiceStatus" class="muted" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="disclaimer">
+          This is not a medical diagnosis tool.
+          <br />
+          If you have severe or worsening symptoms, seek professional medical advice urgently.
+        </div>
+      </section>
+
+      <section class="card history-card">
+        <div class="history-header">
+          <h2>Recent Chat History</h2>
+          <button id="clearHistoryBtn" type="button" class="secondary">Clear</button>
+        </div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
+

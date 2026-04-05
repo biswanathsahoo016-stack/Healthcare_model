@@ -1,0 +1,271 @@
+{
+  "diseases": [
+    {
+      "name": "Common Cold",
+      "aliases": ["cold", "common cold", "runny nose"],
+      "symptoms": [
+        "runny nose",
+        "congestion",
+        "sneezing",
+        "sore throat",
+        "cough",
+        "mild fever",
+        "fatigue"
+      ],
+      "description": "A viral infection of the upper respiratory tract (usually mild) that commonly causes a runny nose, congestion, sore throat, and cough.",
+      "precautions": [
+        "Rest and drink plenty of fluids.",
+        "Stay hydrated; consider warm teas or soups.",
+        "Use saline nasal spray or gentle steam inhalation for congestion.",
+        "Practice good hand hygiene and avoid close contact to reduce spread.",
+        "Seek care if symptoms worsen or persist beyond about 7-10 days."
+      ],
+      "otc_medicines": [
+        {
+          "name": "Acetaminophen (Paracetamol) for fever/pain",
+          "how_often": "Every 4-6 hours as needed (adults) - follow the package label for exact dosing.",
+          "dosage_guidelines": [
+            "Adults: follow the package label for dosing intervals.",
+            "Typical adult max is often 3000 mg/day (some products differ); do not exceed the label maximum.",
+            "Avoid if you have severe liver disease or if directed by a clinician."
+          ]
+        },
+        {
+          "name": "Ibuprofen for fever/pain (NSAID)",
+          "how_often": "Every 6-8 hours as needed (adults) - follow the package label for exact dosing.",
+          "dosage_guidelines": [
+            "Adults: follow the package label.",
+            "Typical OTC max is often 1200 mg/day.",
+            "Avoid if you have a history of stomach ulcers/bleeding, kidney disease, are dehydrated, or are advised not to take NSAIDs."
+          ]
+        },
+        {
+          "name": "Saline nasal spray / saline rinse",
+          "how_often": "As directed on the label (often several times daily) - follow exact usage instructions.",
+          "dosage_guidelines": [
+            "Use as directed on the product label.",
+            "Helpful for congestion without systemic drug effects."
+          ]
+        }
+      ],
+      "dosage_guidelines": [
+        "Use only as directed on the label.",
+        "Do not combine multiple products that contain the same ingredient (for example, many cold/flu products include acetaminophen).",
+        "If symptoms are mild, consider starting with non-medication measures like rest and fluids."
+      ],
+      "when_to_consult_doctor": [
+        "Shortness of breath, chest pain, or bluish lips.",
+        "Fever lasting more than 3 days or very high fever.",
+        "Severe sore throat, symptoms rapidly worsening, or new ear pain/sinus swelling.",
+        "Symptoms that persist beyond 7-10 days without improvement."
+      ]
+    },
+    {
+      "name": "Influenza (Flu)",
+      "aliases": ["flu", "influenza"],
+      "symptoms": [
+        "sudden fever",
+        "chills",
+        "body aches",
+        "fatigue",
+        "dry cough",
+        "sore throat"
+      ],
+      "description": "A viral respiratory illness that often comes on suddenly and can cause fever, chills, body aches, fatigue, and cough.",
+      "precautions": [
+        "Rest and stay well hydrated.",
+        "Consider checking temperature regularly.",
+        "Avoid spreading infection (masks in shared spaces, hand hygiene).",
+        "If you are high-risk (pregnancy, age extremes, chronic illnesses), contact a clinician early."
+      ],
+      "otc_medicines": [
+        {
+          "name": "Acetaminophen or Ibuprofen for fever and aches",
+          "how_often": "Choose ONE: acetaminophen every 4-6 hours as needed OR ibuprofen every 6-8 hours as needed - follow the package label.",
+          "dosage_guidelines": [
+            "Use as directed on the package label.",
+            "Do not exceed the label maximum daily dose.",
+            "Avoid NSAIDs if you have specific contraindications (ulcer history, kidney disease, dehydration)."
+          ]
+        },
+        {
+          "name": "Throat lozenges / warm saltwater gargles",
+          "how_often": "Lozenges: every 2-3 hours as needed (follow label). Gargles: repeat as needed for comfort.",
+          "dosage_guidelines": [
+            "Use as directed; repeat as needed for symptom relief.",
+            "Warm saltwater gargles can soothe throat irritation."
+          ]
+        }
+      ],
+      "dosage_guidelines": [
+        "Consider treating fever and discomfort rather than trying to 'cure' with OTC medicines.",
+        "Stay cautious with multi-symptom cold/flu products to prevent ingredient duplication."
+      ],
+      "when_to_consult_doctor": [
+        "Trouble breathing, chest pain, or confusion.",
+        "Dehydration (very dry mouth, dizziness, minimal urination).",
+        "Symptoms improving then suddenly worsening.",
+        "High-risk conditions (pregnancy, immunocompromised status, chronic lung/heart/kidney disease) especially if symptoms are within the first couple of days."
+      ]
+    },
+    {
+      "name": "Allergic Rhinitis (Seasonal Allergies)",
+      "aliases": ["allergies", "hay fever", "allergic rhinitis"],
+      "symptoms": [
+        "sneezing",
+        "itchy eyes",
+        "itchy nose",
+        "runny nose",
+        "stuffy nose",
+        "watery eyes",
+        "no fever"
+      ],
+      "description": "An allergy-related inflammation of the nose and sometimes eyes, often triggered by pollen, dust, or pet dander. Symptoms typically include sneezing and itching more than fever.",
+      "precautions": [
+        "Reduce exposure to triggers when possible (keep windows closed during high pollen periods).",
+        "Consider using air filtration and regular cleaning/dusting.",
+        "Shower after outdoor exposure to remove pollen from hair/skin.",
+        "If symptoms are persistent or severe, a clinician may recommend allergy testing or longer-term treatment."
+      ],
+      "otc_medicines": [
+        {
+          "name": "Non-drowsy antihistamines (e.g., cetirizine, loratadine)",
+          "how_often": "Usually once daily (follow the package label for your specific product).",
+          "dosage_guidelines": [
+            "Adults: follow the package label for dose and frequency.",
+            "Many are taken once daily; confirm for your specific product.",
+            "If you feel drowsy, avoid driving and consider a different option."
+          ]
+        },
+        {
+          "name": "Saline nasal spray",
+          "how_often": "As directed on the label (often 1-3 times daily or as needed).",
+          "dosage_guidelines": [
+            "Use as directed on the label.",
+            "Can help rinse allergens from the nasal passages."
+          ]
+        },
+        {
+          "name": "Antihistamine eye drops (if itchy/watery eyes)",
+          "how_often": "1 drop in affected eye(s) up to 2-4 times daily (follow the package label).",
+          "dosage_guidelines": [
+            "Use as directed; avoid sharing eye drops.",
+            "Stop if you get eye pain or worsening redness and seek care."
+          ]
+        }
+      ],
+      "dosage_guidelines": [
+        "Start with one product at a time to know what helps.",
+        "Follow label guidance and check for interactions with other medications."
+      ],
+      "when_to_consult_doctor": [
+        "Wheezing, shortness of breath, or asthma flare.",
+        "Severe eye symptoms (pain, vision changes).",
+        "Symptoms not improving after trying OTC options as directed.",
+        "Frequent recurrent symptoms that significantly affect daily life."
+      ]
+    },
+    {
+      "name": "Strep Throat (Possible)",
+      "aliases": ["strep", "strep throat", "throat infection"],
+      "symptoms": [
+        "severe sore throat",
+        "fever",
+        "swollen lymph nodes",
+        "no cough",
+        "white patches",
+        "difficulty swallowing"
+      ],
+      "description": "Strep throat is a bacterial infection that can cause severe sore throat and fever. It often requires a test and antibiotics—OTC medicines can help with pain, but they do not replace evaluation.",
+      "precautions": [
+        "Consider getting a rapid strep test, especially if symptoms are significant.",
+        "Stay hydrated and rest.",
+        "Avoid close contact if you might be contagious."
+      ],
+      "otc_medicines": [
+        {
+          "name": "Pain/fever relief (acetaminophen or ibuprofen)",
+          "how_often": "Choose ONE: acetaminophen every 4-6 hours as needed OR ibuprofen every 6-8 hours as needed - follow the package label.",
+          "dosage_guidelines": [
+            "Use as directed on the package label.",
+            "Do not exceed the maximum daily dose stated on the label.",
+            "Avoid NSAIDs if contraindicated for you."
+          ]
+        },
+        {
+          "name": "Throat soothing (lozenges, warm saltwater gargles)",
+          "how_often": "As directed on the label (often every 2-3 hours as needed). Gargles: repeat as needed.",
+          "dosage_guidelines": [
+            "Use as directed on the label.",
+            "Warm saltwater gargles can reduce throat discomfort."
+          ]
+        }
+      ],
+      "dosage_guidelines": [
+        "OTC medicines are for symptom relief only.",
+        "If strep is suspected, seek medical evaluation rather than relying only on OTC treatment."
+      ],
+      "when_to_consult_doctor": [
+        "Severe sore throat with fever, especially if there is no cough.",
+        "Trouble swallowing, drooling, muffled voice, or trouble breathing.",
+        "Signs of dehydration.",
+        "Symptoms lasting more than 2-3 days or worsening."
+      ]
+    },
+    {
+      "name": "Gastroenteritis / Food Poisoning (Possible)",
+      "aliases": ["stomach bug", "food poisoning", "gastroenteritis", "vomiting diarrhea"],
+      "symptoms": [
+        "nausea",
+        "vomiting",
+        "diarrhea",
+        "abdominal cramps",
+        "upset stomach",
+        "fever"
+      ],
+      "description": "Inflammation of the stomach and intestines, often due to viruses or contaminated food. Common symptoms include nausea, vomiting, and/or diarrhea.",
+      "precautions": [
+        "Focus on hydration: take small sips of oral rehydration solution (ORS) or electrolyte fluids.",
+        "Avoid alcohol; go easy on heavy/fatty foods at first.",
+        "Wash hands thoroughly to reduce spread."
+      ],
+      "otc_medicines": [
+        {
+          "name": "Oral Rehydration Solution (ORS) / electrolyte drinks",
+          "how_often": "Small frequent sips, especially after each loose stool; follow the ORS product instructions.",
+          "dosage_guidelines": [
+            "Use according to product instructions.",
+            "Small frequent sips are often easier if nauseated."
+          ]
+        },
+        {
+          "name": "Bismuth subsalicylate (for symptom relief, if appropriate)",
+          "how_often": "Often up to 4 times/day as needed (follow the label). Avoid if you have aspirin allergy or are told not to take salicylates.",
+          "dosage_guidelines": [
+            "Use as directed on the label.",
+            "Avoid if you have aspirin allergy or are advised not to take salicylates."
+          ]
+        },
+        {
+          "name": "Acetaminophen for fever/aches (if needed)",
+          "how_often": "Every 4-6 hours as needed (adults) - follow the package label.",
+          "dosage_guidelines": [
+            "Use as directed on the package label.",
+            "Do not exceed the label maximum daily dose."
+          ]
+        }
+      ],
+      "dosage_guidelines": [
+        "For diarrhea, prioritize hydration first.",
+        "Avoid anti-diarrheal medicines if you have blood in stool or high fever unless a clinician advises."
+      ],
+      "when_to_consult_doctor": [
+        "Blood in stool, black/tarry stool, or severe abdominal pain.",
+        "Signs of dehydration (very dry mouth, dizziness, minimal urination).",
+        "High fever or symptoms lasting more than 2-3 days.",
+        "If you are pregnant, immunocompromised, or a child with concerning symptoms."
+      ]
+    }
+  ]
+}
+
